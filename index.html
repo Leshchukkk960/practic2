@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Блог про подорожі</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; background:#f5f5f5;}
+    header { background:#009688; color:white; text-align:center; padding:20px 0;}
+    nav a { color:white; text-decoration:none; margin:0 15px; font-weight:bold;}
+    nav a:hover { text-decoration:underline;}
+    main { max-width:800px; margin:auto; padding:20px;}
+    img { width:100%; border-radius:10px; margin:15px 0;}
+    footer { background:#004d40; color:white; text-align:center; padding:10px 0;}
+    @media(max-width:600px){ nav a{ display:block; margin:10px 0; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1> Мандрівний світ</h1>
+    <nav>
+      <a href="index.html">Головна</a>
+      <a href="articles.html">Статті</a>
+      <a href="about.html">Про автора</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Ласкаво просимо до блогу про подорожі!</h2>
+    <p>Тут ви знайдете історії про мандрівки, поради для туристів та яскраві фото з різних куточків світу.</p>
+    <img src="images/travel.jpg" alt="Подорож">
+    <form>
+      <label>Підпишіться на новини:</label><br>
+      <input type="email" placeholder="Введіть вашу пошту">
+      <button type="submit">Підписатися</button>
+    </form>
+  </main>
+  <footer>
+    <p>Контакти: travel.blog@gmail.com | Блог про подорожі</p>
+  </footer>
+</body>
+</html>
